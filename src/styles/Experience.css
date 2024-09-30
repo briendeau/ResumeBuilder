@@ -1,0 +1,13 @@
+.experience {
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(111, 106, 106);
+  margin: 10px;
+  border-radius: 4px;
+}
+
+.experience h2 {
+  padding: 10px;
+}
+.experience div {
+  padding: 10px;
+}

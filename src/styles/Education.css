@@ -1,0 +1,13 @@
+.education {
+  color: rgb(0, 0, 0);
+  border: 1px solid black;
+  width: 100%;
+  margin: 10px;
+}
+
+.education h2 {
+  padding: 10px;
+}
+.education div {
+  padding: 10px;
+}
