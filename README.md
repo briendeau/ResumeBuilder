@@ -1,5 +1,5 @@
 # React + Vite
-A Demonstration of React skills, mutiple components and event handlers for changes and clicks to update state using hooks.
+A demonstration of React skills, mutiple components and event handlers for changes and clicks to update state using hooks.
 Fully mobile responsive using media queries.
 
 LIVE LINK:
