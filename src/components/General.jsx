@@ -26,25 +26,28 @@ function General() {
             value={name}
             onChange={(event) => setName(event.target.value)}
           />
-          <button>Clear (make this setState to "")</button>
+          <button>Clear</button>
           <h2>Education:</h2>
           <input
             type="text"
             value={education}
             onChange={(event) => setEducation(event.target.value)}
           />
+          <button>Clear</button>
           <h2>Skills:</h2>
           <input
             type="text"
             value={skills}
             onChange={(event) => setSkills(event.target.value)}
           />
+          <button>Clear</button>
           <h2>Work History:</h2>
           <input
             type="text"
             value={history}
             onChange={(event) => setHistory(event.target.value)}
           />
+          <button>Clear</button>
         </div>
         <Resume
           name={name}

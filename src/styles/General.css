@@ -13,6 +13,7 @@
   text-shadow: 1px 1px rgb(0, 0, 0), 4px 4px rgb(175, 175, 255);
   font-size: 3.2em;
   line-height: 1.1;
+  font-family: "Oswald", sans-serif;
 }
 .general div {
   padding: 10px;
@@ -21,10 +22,10 @@
 .gen-block {
   text-align: left;
   color: rgb(0, 0, 0);
-  border: 1px solid rgb(111, 106, 106);
+  border: 1px solid rgb(106, 107, 111);
   border-radius: 4px;
-  background-color: #e889375d;
-  height: 64vh !important;
+  background-color: #5b5b5b5d;
+  height: 77vh !important;
 }
 
 .gen-block h2 {
@@ -44,4 +45,15 @@ button {
   padding: 6px;
   border-radius: 4px;
   margin: 4px;
+}
+
+@media only screen and (max-width: 600px) {
+  .general {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .resume {
+    width: 100% !important;
+  }
 }
