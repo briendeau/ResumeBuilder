@@ -1,8 +1,8 @@
 # React + Vite
+A demonstration of React skills, mutiple components and event handlers for changes and clicks to update state using hooks.
+Fully mobile responsive using media queries.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+LIVE LINK:
+https://elegant-pika-0f7a86.netlify.app/
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![image](https://github.com/user-attachments/assets/0650d233-e47d-4333-b3bc-d0ae13e29e44)
