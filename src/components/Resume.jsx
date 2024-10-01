@@ -6,15 +6,15 @@ function Resume({ name, education, skills, history }) {
     <>
       <div className="resume">
         <h1>{name}</h1>
-        <div id="education">
+        <div id="education" contentEditable>
           <span>Education:</span> <br />
           {education}
         </div>
-        <div id="skills">
+        <div id="skills" contentEditable>
           <span>Skills:</span> <br />
           {skills}
         </div>
-        <div id="history">
+        <div id="history" contentEditable>
           <span>Work History:</span> <br />
           {history}
         </div>
