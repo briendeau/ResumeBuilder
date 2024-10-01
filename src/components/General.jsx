@@ -46,24 +46,48 @@ function General() {
             value={name}
             onChange={(event) => setName(event.target.value)}
           />
+          {/* <textarea
+            rows={5}
+            cols={50}
+            value={name}
+            onChange={(event) => setName(event.target.value)}
+          /> */}
           <button onClick={() => handleClearClick("name")}>Clear</button>
           <h2>Education:</h2>
-          <input
+          {/* <input
             type="text"
+            value={education}
+            onChange={(event) => setEducation(event.target.value)}
+          /> */}
+          <textarea
+            rows={5}
+            cols={50}
             value={education}
             onChange={(event) => setEducation(event.target.value)}
           />
           <button onClick={() => handleClearClick("education")}>Clear</button>
           <h2>Skills:</h2>
-          <input
+          {/* <input
             type="text"
+            value={skills}
+            onChange={(event) => setSkills(event.target.value)}
+          /> */}
+          <textarea
+            rows={5}
+            cols={50}
             value={skills}
             onChange={(event) => setSkills(event.target.value)}
           />
           <button onClick={() => handleClearClick("skills")}>Clear</button>
           <h2>Work History:</h2>
-          <input
+          {/* <input
             type="text"
+            value={history}
+            onChange={(event) => setHistory(event.target.value)}
+          /> */}
+          <textarea
+            rows={5}
+            cols={50}
             value={history}
             onChange={(event) => setHistory(event.target.value)}
           />

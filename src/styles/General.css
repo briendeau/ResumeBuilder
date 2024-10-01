@@ -25,7 +25,6 @@
   border: 1px solid rgb(106, 107, 111);
   border-radius: 4px;
   background-color: #5b5b5b5d;
-  height: 77vh !important;
 }
 
 .gen-block h2 {
@@ -41,7 +40,14 @@ input {
   margin: 4px;
 }
 
+textarea {
+  padding: 6px;
+  border-radius: 4px;
+  margin: 4px;
+}
+
 button {
+  display: block;
   padding: 6px;
   border-radius: 4px;
   margin: 4px;
@@ -55,5 +61,9 @@ button {
 
   .resume {
     width: 100% !important;
+  }
+
+  .gen-block {
+    height: 100vh !important;
   }
 }
