@@ -20,26 +20,26 @@ function General() {
       <div className="general">
         <div className="gen-block">
           <h1>Resume Builder</h1>
-          <h2>Name</h2>
+          <h2>Name:</h2>
           <input
             type="text"
             value={name}
             onChange={(event) => setName(event.target.value)}
           />
           <button>Clear (make this setState to "")</button>
-          <h2>Education</h2>
+          <h2>Education:</h2>
           <input
             type="text"
             value={education}
             onChange={(event) => setEducation(event.target.value)}
           />
-          <h2>Skills</h2>
+          <h2>Skills:</h2>
           <input
             type="text"
             value={skills}
             onChange={(event) => setSkills(event.target.value)}
           />
-          <h2>Work History</h2>
+          <h2>Work History:</h2>
           <input
             type="text"
             value={history}

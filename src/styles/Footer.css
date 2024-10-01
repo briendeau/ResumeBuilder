@@ -1,7 +1,9 @@
 .footer {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 20px;
-  background-color: black;
+  background-color: rgb(0, 17, 68);
   color: white;
   grid-column-start: 1;
   grid-column-end: 4;

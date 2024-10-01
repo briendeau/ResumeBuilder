@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useState } from "react";
 
 function Resume({ name, education, skills, history }) {
@@ -6,15 +7,15 @@ function Resume({ name, education, skills, history }) {
       <div className="resume">
         <h1>{name}</h1>
         <div id="education">
-          Education: <br />
+          <span>Education:</span> <br />
           {education}
         </div>
         <div id="skills">
-          Skills: <br />
+          <span>Skills:</span> <br />
           {skills}
         </div>
         <div id="history">
-          Work History: <br />
+          <span>Work History:</span> <br />
           {history}
         </div>
       </div>
